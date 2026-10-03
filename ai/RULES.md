@@ -78,6 +78,7 @@ Full text: STANDARD.md §2c.
 - Keep it a single static file — adding a framework/build = ARCHITECTURE DECISION.
 
 ## 4. Deploy / branches
+- **One development line (default, STANDARD.md §9a):** one active development line → one version we test → one deployment we keep building on. Do not spread an ordinary task over several branches/environments on your own. Preview/staging only when this repo has real customers/data or Peter asks - and then it is written here as a project override.
 - Default branch `main`. Repository is **public**. Deploy: UNKNOWN / NEEDS CONFIRMATION.
 
 ## 5. ARCHITECTURE/PRODUCT DECISION REQUIRED
